@@ -1,0 +1,21 @@
+ArrayList
+----------
+
+It implements the List interface so we can use all the methods of the List interface here.
+
+It uses a dynamic array to store the duplicate element of different data types.
+(It is like an array, but there is no size limit.)
+
+The ArrayList class maintains the insertion order.
+
+The ArrayList is non-synchronized.
+( If a class or method is synchronized, it means that only one thread can access it at a time,
+ making it thread-safe. However, ArrayList is non-synchronized, 
+ which means it is not thread-safe. Multiple threads can access and modify an ArrayList, 
+ does not provide built-in thread-safety mechanisms,Then simultaneously leading to potential issues 
+ such as data corruption or inconsistent state if proper synchronization mechanisms are not implemented externally )
+ 
+The elements stored in the ArrayList class can be randomly accessed.
+(refers to the fact that you can access any element in an ArrayList directly using its index. 
+This is because internally, ArrayList uses an array to store its elements, 
+and accessing elements by index in an array is efficient.)

@@ -1,0 +1,45 @@
+Basics
+-------
+
+
+classes implements an interface -This means that the class agrees to provide
+ implementations for all of the methods defined by the interface.
+
+classes extends another class- means one class inherits the properties of another class (inheritance in oop)
+
+A class can only extend(inherit) one parent class.
+A class can implement more than one interface in it.
+
+interface extends another interface -means When one interface extends another interface, 
+this is called "interface inheritance" in Java and means the child interface can access all the methods
+that are declared in the parent interface
+
+
+
+Collection Hierarchy
+--------------------
+
+Mind these
+----> means implements (implements the methods defined in interface)
+++++> means extends (inherits)
+*  means  implementation class
+# means interface
+
+
+List # , Set #, Queue # ++++> Collection #  ++++> Iterable #
+
+ArrayList *, Linkedlist *, Vector * ----> List #
+stack *  ++++> Vector *   (Stack is subclass of the vector)
+
+
+ArrayDeque *, LinkedList * ----> Deque #  
+Deque #  ++++>  Queue #
+ProrityQueue *----> Queue #
+
+
+HashSet *, LinkedHashSet * ----> Set #
+TreeSet * ----> Set
+SortedSet# ++++> Set
+
+
+

@@ -1,0 +1,52 @@
+List Interface
+---------------
+
+List interface is the child interface of Collection interface.
+It inhibits a list type data structure in which we can store the ordered collection of objects.
+It can have duplicate values.
+
+List interface is implemented by the classes ArrayList, LinkedList, Vector, and Stack(it is a sub class , which extends vector).
+
+To instantiate the List interface, we must use :
+
+
+List list1= new ArrayList();  
+List list2 = new LinkedList();  
+List list3 = new Vector();  
+List list4 = new Stack(); 
+
+
+
+or 
+ArrayList<> list1 = new ArrayList<>();
+LinkedList<> list1 = new LinkedList<>();
+Vector<> list1 = new Vector<>();
+Stack<> list1 = new Stack<>();
+
+or
+
+List<data-type> list1= new ArrayList();  
+List<data-type> list2 = new LinkedList();  
+List<data-type> list3 = new Vector();  
+List<data-type> list4 = new Stack(); 
+
+or
+
+ 
+
+
+or using generics(allows only  specific datatypes)
+
+
+ArrayList <data-type> list1= new ArrayList<data-type>();  
+LinkedList <data-type> list1= new LinkedList<data-type>();  
+Vector <data-type> list1= new Vector<data-type>();  
+Stack <data-type> list1= new Stack<data-type>();  
+ 
+
+ 
+
+There are various methods in List interface that can be used to insert, delete, and access the elements from the list.
+
+
+

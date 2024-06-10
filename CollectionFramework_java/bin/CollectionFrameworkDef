@@ -1,0 +1,16 @@
+Collections is a group of individual objects.
+
+Collections is used to represent group of discrete objects as a single unit.
+
+The Java Collection Framework is  both homogeneous and heterogeneous collections.
+Collection framework is a set of interfaces , implementation classes and algorithms.
+
+We can have dynamic length, so we don't need to declare the length like in the arrays.
+
+We can perform operations on the data such as searching, sorting, insertion , manipulation and deletion etc.
+
+
+It is recommended to stop the memory wastage as it grows on demand.
+
+
+
